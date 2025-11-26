@@ -1,0 +1,21 @@
+spring:
+  config:
+    import: "classpath:application-secret.yml"
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 684064455968-5cnfflf65rtgm6h9266suvoqk0sg8dod.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          google:
+            issuer-uri: https://accounts.google.com
+
+server:
+  port: 8080
