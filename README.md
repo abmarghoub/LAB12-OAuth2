@@ -1,5 +1,26 @@
 # TP 12 : Intégration OAuth2 (Google ou Keycloak)
 
+---
+
+### Réalisé par
+
+**Abla MARGHOUB**
+
+### Encadré par
+
+**Pr. Mohamed LACHGAR**
+
+### Module
+
+**Techniques de Programmation Avancée**
+
+### Établissement
+
+**École Normale Supérieure - Université Cadi Ayyad**
+
+---
+
+
 ## 1. Objectif du TP
 Ce TP a pour objectif de mettre en place un système d'authentification via **Google OAuth2** dans une application **Spring Boot**.  
 L'utilisateur peut se connecter avec son compte Google, accéder à une page protégée affichant ses informations personnelles (nom, email, photo) et se déconnecter proprement.
